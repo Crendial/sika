@@ -50,9 +50,9 @@ function ohi() {
     pelaajat[pelaajavuoro].score += pisteet
     pisteet = 0
     document.getElementById("bigtxt").innerHTML = pisteet
-    constructlist()
 
     if (pelaajat[pelaajavuoro].score >= goal) {
+        constructlist()
         victory()
         return
     }
@@ -61,6 +61,7 @@ function ohi() {
     if (pelaajavuoro == pelaajamaara) {
         pelaajavuoro = 0
     }
+    constructlist()
 }
 
 function roll() {
