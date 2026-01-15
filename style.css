@@ -1,0 +1,55 @@
+#container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 80vh;
+}
+
+.nappi {
+    margin: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border: 1px, black;
+    font-size: 1rem;
+}
+
+#bigtxt {
+    font-size: 4rem;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.dicepng {
+    height : 10rem;
+    width : 10rem;
+    margin : 3rem;
+}
+
+ul {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 0;
+    padding: 0.5rem;
+    border: 2px solid #444;
+
+}
+
+li {
+    flex: 1;
+    text-align: center;
+    border-right: 2px solid #444;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+
+.gameinfo {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    text-align:center;
+}
